@@ -24,3 +24,5 @@ document.getElementsByClassName('btn common-btn').addEventListener('click', func
     link.click();
     document.body.removeChild(link);
 });
+
+
