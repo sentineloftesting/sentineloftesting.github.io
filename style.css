@@ -1,6 +1,42 @@
 /* Styles defined for the desktop or the bigger screen devices*/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap'); 
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.img-box
+{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+}
+
+.img-box img
+{
+    height: 100%;
+    position: absolute;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: bottom ls;
+}
+
+.img-box:hover .back-img
+{
+    bottom: 40px;
+}
+
+.img-box:hover .main-img{
+    left:54%
+}
+
+
 body { 
 	margin: 0; 
 	padding: 0; 
@@ -225,7 +261,7 @@ body {
 
 /* Footer Styles */
 .footer { 
-	background-color: #5a54549e; 
+	background-color: #ffff; 
 	color: #fff; 
     position: fixed;
     padding: 10px 10px 0px 10px;
@@ -236,17 +272,7 @@ body {
 } 
 
 
-.footer-list-items { 
-	display: flex; 
-	align-items: center; 
-	justify-content: center; 
-	height: 50px; 
-	width: 50px; 
-	margin: 1rem 1rem 0 1rem; 
-	border-radius: 50%; 
-	background-color: #53C8B6;
-     
-} 
+
 
 .footer-links { 
 	font-size: 24px; 
@@ -267,6 +293,7 @@ body {
 .footer-menu .footer-menu-list { 
 	display: flex; 
 	list-style: none; 
+    list-style-type: none;
 } 
 
 
@@ -362,3 +389,4 @@ body {
 .blue-text { 
 	color: #363D73; 
 }
+
