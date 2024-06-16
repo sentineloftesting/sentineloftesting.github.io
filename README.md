@@ -1,6 +1,6 @@
-<a href="https://angryybird.github.io/">https://angryybird.github.io/</a>
 <p><h2>Hello World 👋 I’m Ujjwal Kumar Singh</h2></p>
-  <p><b>This is my portfolio website./b></p>
+  <p><b>This is my portfolio website.</b></p>
+  <a href="https://angryybird.github.io/">https://angryybird.github.io/</a>
 
 
 
